@@ -5,7 +5,8 @@ app = Flask(__name__)
 @app.route('/')
 def home():
     return '''
-    <h1>🚀 My DevOps Pipeline is Working finally!</h1>
+    <h1>🚀 My DevOps Pipeline is Working finally! </h1>
+    <h1>Docker image is pushed to hub</h1>
     <p>Deployed automatically via Jenkins + Docker on local host:7000</p>
     '''
 
